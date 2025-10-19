@@ -1,0 +1,27 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+.venv/*
+
+# Artifacts / logs
+artifacts/
+*.log
+*.csv
+*.png
+
+# uv / dependency lock files (optional if you want clean repo)
+uv.lock
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python test outputs
+.pytest_cache/
